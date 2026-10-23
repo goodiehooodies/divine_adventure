@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Divine Adventure Holidays Tour & Travels — Premium custom tours, hotel bookings, licensed guides and transport across India and the world. Plan your perfect journey today." />
+  <meta name="theme-color" content="#0A0E1A" />
+  <title>Divine Adventure Holidays Tour &amp; Travels | Custom Tours India &amp; Worldwide</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Divine Adventure Holidays Tour & Travels" />
+  <meta property="og:description" content="Premium custom tours, hotel bookings, licensed guides and transport across India and the world." />
+  <meta property="og:type" content="website" />
+
+  <!-- Preconnect Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Config must load before main.js -->
+  <script src="config.js"></script>
+</head>
+<body>
+
+<!-- Skip to main content -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- ═══════════════════════════════════════════════════════════
+     HEADER
+════════════════════════════════════════════════════════════ -->
+<header id="site-header" role="banner">
+  <div class="container">
+    <div class="header-inner">
+
+      <!-- Brand -->
+      <a href="#hero" class="brand" aria-label="Divine Adventure — home">
+        <!-- Emblem: layered mountain + compass rose -->
+        <svg class="brand-emblem" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="21" cy="21" r="20" stroke="rgba(125,211,252,0.35)" stroke-width="1"/>
+          <!-- Mountain silhouette -->
+          <path d="M7 32 L15 16 L21 24 L27 14 L35 32 Z" fill="rgba(125,211,252,0.15)" stroke="#7DD3FC" stroke-width="1.2" stroke-linejoin="round"/>
+          <!-- Star peak -->
+          <circle cx="27" cy="14" r="2.5" fill="#7DD3FC"/>
+          <!-- Compass tick marks -->
+          <line x1="21" y1="3"  x2="21" y2="6"  stroke="rgba(200,160,240,0.6)" stroke-width="1.2" stroke-linecap="round"/>
+          <line x1="21" y1="36" x2="21" y2="39" stroke="rgba(200,160,240,0.4)" stroke-width="1"   stroke-linecap="round"/>
+          <line x1="3"  y1="21" x2="6"  y2="21" stroke="rgba(200,160,240,0.4)" stroke-width="1"   stroke-linecap="round"/>
+          <line x1="36" y1="21" x2="39" y2="21" stroke="rgba(200,160,240,0.4)" stroke-width="1"   stroke-linecap="round"/>
+        </svg>
+        <div class="brand-name">
+          Divine Adventure
+          <span>Holidays Tour &amp; Travels</span>
+        </div>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#hero"         data-section="hero">Home</a>
+        <a href="#destinations" data-section="destinations">Destinations</a>
+        <a href="#services"     data-section="services">Services</a>
+        <a href="#travel-info"  data-section="travel-info">Travel Info</a>
+        <a href="#about"        data-section="about">About</a>
+        <a href="#reviews"      data-section="reviews">Reviews</a>
+        <a href="#contact"      data-section="contact">Contact</a>
+      </nav>
+
+      <!-- CTA -->
+      <a href="#contact" class="btn btn-primary btn-sm header-plan-btn">Plan a trip</a>
+
+      <!-- Hamburger -->
+      <button class="hamburger" id="hamburger-btn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+    </div>
+  </div>
+</header>
+
+<!-- Mobile menu -->
+<nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" aria-hidden="true">
+  <a href="#hero"         data-section="hero">Home</a>
+  <a href="#destinations" data-section="destinations">Destinations</a>
+  <a href="#services"     data-section="services">Services</a>
+  <a href="#travel-info"  data-section="travel-info">Travel Info</a>
+  <a href="#about"        data-section="about">About</a>
+  <a href="#reviews"      data-section="reviews">Reviews</a>
+  <a href="#contact"      data-section="contact">Contact</a>
+  <a href="#contact" class="btn btn-primary">Plan a trip</a>
+</nav>
+
+<!-- ═══════════════════════════════════════════════════════════
+     MAIN
+════════════════════════════════════════════════════════════ -->
+<main id="main-content">
+
+  <!-- ── HERO ─────────────────────────────────────────────── -->
+  <section id="hero" aria-label="Hero — slideshow and headline">
+
+    <!-- Slideshow -->
+    <div class="slideshow" id="hero-slideshow" aria-hidden="true">
+      <div class="slide active" data-index="0">
+        <img src="assets/images/hero-1.jpg" alt="Ladakh — dramatic mountain landscape under a blue sky" loading="eager" />
+      </div>
+      <div class="slide" data-index="1">
+        <img src="assets/images/hero-2.jpg" alt="Rajasthan — golden fort at sunset" loading="lazy" />
+      </div>
+      <div class="slide" data-index="2">
+        <img src="assets/images/hero-3.jpg" alt="Kerala — emerald backwaters with a houseboat" loading="lazy" />
+      </div>
+      <div class="slide" data-index="3">
+        <img src="assets/images/hero-4.jpg" alt="Himalayas — snow-capped peaks at dawn" loading="lazy" />
+      </div>
+      <div class="slide" data-index="4">
+        <img src="assets/images/hero-5.jpg" alt="Thailand — turquoise sea and limestone cliffs" loading="lazy" />
+      </div>
+    </div>
+
+    <!-- Dark overlay -->
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <!-- Slide arrows -->
+    <div class="slide-arrows" aria-label="Slideshow controls">
+      <button class="slide-arrow" id="slide-prev" aria-label="Previous slide">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+          <path d="M11 14L6 9l5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <button class="slide-arrow" id="slide-next" aria-label="Next slide">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+          <path d="M7 4l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Slide dots -->
+    <div class="slide-dots" role="tablist" aria-label="Slide indicators">
+      <button class="slide-dot active" role="tab" aria-selected="true"  aria-label="Slide 1: Ladakh"></button>
+      <button class="slide-dot"        role="tab" aria-selected="false" aria-label="Slide 2: Rajasthan"></button>
+      <button class="slide-dot"        role="tab" aria-selected="false" aria-label="Slide 3: Kerala"></button>
+      <button class="slide-dot"        role="tab" aria-selected="false" aria-label="Slide 4: Himalayas"></button>
+      <button class="slide-dot"        role="tab" aria-selected="false" aria-label="Slide 5: Thailand"></button>
+    </div>
+
+    <!-- Hero content -->
+    <div class="container hero-content">
+      <div class="hero-tag">
+        <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor" aria-hidden="true"><circle cx="5" cy="5" r="4"/></svg>
+        India &amp; Worldwide Journeys
+      </div>
+      <h1 class="hero-title">Your next unforgettable<br/>journey starts here.</h1>
+      <p class="hero-sub">Adventure, culture and comfort, all in one journey.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M8 1.5l5.5 5.5L8 12.5M2.5 7H13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Plan your journey
+        </a>
+        <a href="#destinations" class="btn btn-secondary">View destinations</a>
+      </div>
+    </div>
+
+    <!-- Route cards along the bottom -->
+    <div class="hero-route" aria-label="Featured destinations">
+      <div class="container">
+        <div class="route-wrapper">
+          <!-- Dashed SVG route line -->
+          <svg class="route-svg" viewBox="0 0 1200 32" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M150 16 Q 400 2 600 16 Q 800 30 1050 16"
+                  stroke="#7DD3FC" stroke-width="1.5" stroke-dasharray="6 6"
+                  fill="none" opacity="0.4"/>
+            <circle cx="150"  cy="16" r="4" fill="#7DD3FC" opacity="0.7"/>
+            <circle cx="450"  cy="10" r="3" fill="#7DD3FC" opacity="0.5"/>
+            <circle cx="750"  cy="22" r="3" fill="#7DD3FC" opacity="0.5"/>
+            <circle cx="1050" cy="16" r="4" fill="#7DD3FC" opacity="0.7"/>
+          </svg>
+          <div class="route-cards">
+            <!-- Rajasthan -->
+            <div class="route-card">
+              <div class="route-card-icon" aria-hidden="true">🏯</div>
+              <div>
+                <div class="route-card-name">Rajasthan</div>
+                <div class="route-card-tag">India · Heritage</div>
+              </div>
+            </div>
+            <!-- Kerala -->
+            <div class="route-card">
+              <div class="route-card-icon" aria-hidden="true">🌴</div>
+              <div>
+                <div class="route-card-name">Kerala</div>
+                <div class="route-card-tag">India · Backwaters</div>
+              </div>
+            </div>
+            <!-- Himalayas -->
+            <div class="route-card">
+              <div class="route-card-icon" aria-hidden="true">🏔️</div>
+              <div>
+                <div class="route-card-name">Himalayas</div>
+                <div class="route-card-tag">India · Adventure</div>
+              </div>
+            </div>
+            <!-- Thailand -->
+            <div class="route-card">
+              <div class="route-card-icon" aria-hidden="true">🌊</div>
+              <div>
+                <div class="route-card-name">Thailand</div>
+                <div class="route-card-tag">Asia · Beaches</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section><!-- /#hero -->
+
+
+  <!-- ── TRUST STRIP ───────────────────────────────────────── -->
+  <section id="trust" aria-labelledby="trust-heading">
+    <h2 id="trust-heading" class="sr-only">Why travellers trust us</h2>
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-card glass">
+          <div class="trust-num">25+</div>
+          <div class="trust-label">Destinations worldwide</div>
+        </div>
+        <div class="trust-card glass">
+          <div class="trust-num">100%</div>
+          <div class="trust-label">Custom-planned journeys</div>
+        </div>
+        <div class="trust-card glass">
+          <div class="trust-num">24/7</div>
+          <div class="trust-label">On-trip support</div>
+        </div>
+        <div class="trust-card glass">
+          <div class="trust-num">5★</div>
+          <div class="trust-label">Guest reviews</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ── HOW IT WORKS ──────────────────────────────────────── -->
+  <section id="how-it-works" aria-labelledby="how-heading">
+    <div class="container">
+      <p class="section-label" aria-hidden="true">The process</p>
+      <h2 class="section-title" id="how-heading">How your journey comes together</h2>
+      <p class="section-sub">Five simple steps from first message to fond memories.</p>
+      <ol class="how-steps" aria-label="Journey planning steps">
+
+        <li class="step-card glass">
+          <div class="step-num" aria-hidden="true">1</div>
+          <div>
+            <div class="step-title">Share your plan</div>
+            <p class="step-desc">Tell us your dates, destinations, interests, and group size via the enquiry form or WhatsApp.</p>
+          </div>
+        </li>
+
+        <li class="step-card glass">
+          <div class="step-num" aria-hidden="true">2</div>
+          <div>
+            <div class="step-title">Receive your proposal</div>
+            <p class="step-desc">We craft a personalised itinerary with hotels, guides, and transport that fit your goals and budget.</p>
+          </div>
+        </li>
+
+        <li class="step-card glass">
+          <div class="step-num" aria-hidden="true">3</div>
+          <div>
+            <div class="step-title">Confirm with a booking agreement</div>
+            <p class="step-desc">Review and sign a simple agreement that outlines every detail — no surprises.</p>
+          </div>
+        </li>
+
+        <li class="step-card glass">
+          <div class="step-num" aria-hidden="true">4</div>
+          <div>
+            <div class="step-title">Pay by bank transfer</div>
+            <p class="step-desc">A 30% advance secures your trip. The balance is due 30 days before arrival.</p>
+          </div>
+        </li>
+
+        <li class="step-card glass">
+          <div class="step-num" aria-hidden="true">5</div>
+          <div>
+            <div class="step-title">Travel with support</div>
+            <p class="step-desc">Our team is reachable 24/7 during your journey. Explore freely — we have you covered.</p>
+          </div>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+
+  <!-- ── DESTINATIONS ──────────────────────────────────────── -->
+  <section id="destinations" aria-labelledby="dest-heading">
+    <div class="container">
+      <p class="section-label" aria-hidden="true">Where we take you</p>
+      <h2 class="section-title" id="dest-heading">Explore our destinations</h2>
+      <p class="section-sub">From the palaces of Rajasthan to the shores of New Zealand — we plan it all.</p>
+
+      <!-- Filter bar -->
+      <div class="filter-bar" role="group" aria-label="Filter destinations by region">
+        <button class="filter-btn" data-filter="all"         aria-pressed="true">All</button>
+        <button class="filter-btn" data-filter="india"       aria-pressed="false">India</button>
+        <button class="filter-btn" data-filter="asia"        aria-pressed="false">Asia</button>
+        <button class="filter-btn" data-filter="europe"      aria-pressed="false">Europe</button>
+        <button class="filter-btn" data-filter="middle-east" aria-pressed="false">Middle East</button>
+        <button class="filter-btn" data-filter="oceania"     aria-pressed="false">Oceania</button>
+      </div>
+      <p class="filter-count" id="filter-count" aria-live="polite">Showing 9 destinations</p>
+
+      <!-- Destination cards -->
+      <div class="dest-grid" id="dest-grid">
+
+        <!-- Golden Triangle -->
+        <article class="dest-card glass" data-region="india" aria-label="Golden Triangle, India">
+          <div class="dest-card-img">
+            <img src="assets/images/dest-golden-triangle.jpg"
+                 alt="The Taj Mahal at sunrise, Golden Triangle India"
+                 loading="lazy" width="480" height="220" />
+            <span class="dest-tag">India</span>
+          </div>
+          <div class="dest-card-body">
+            <h3 class="dest-title">Golden Triangle</h3>
+            <p class="dest-desc">Delhi, Agra, and Jaipur — iconic monuments, royal forts, and Mughal grandeur in one sweep.</p>
+            <button class="btn btn-primary btn-sm dest-quote-btn" data-dest="Golden Triangle (India)" style="margin-top:8px">Request a quote</button>
+          </div>
+        </article>
+
+        <!-- Himalayas -->
+        <article class="dest-card glass" data-region="india" aria-label="Himalayas, India">
+          <div class="dest-card-img">
+            <img src="assets/images/dest-himalayas.jpg"
+                 alt="Snow-capped Himalayan peaks above a quiet valley"
+                 loading="lazy" width="480" height="220" />
+            <span class="dest-tag">India</span>
+          </div>
+          <div class="dest-card-body">
+            <h3 class="dest-title">Himalayas</h3>
+            <p class="dest-desc">Ladakh, Spiti, and Manali — monasteries, high passes, and starlit silence at altitude.</p>
+            <button class="btn btn-primary btn-sm dest-quote-btn" data-dest="Himalayas (India)" style="margin-top:8px">Request a quote</button>
+          </div>
+        </article>
+
+        <!-- Kerala -->
+        <article class="dest-card glass" data-region="india" aria-label="Kerala, India">
+          <div class="dest-card-img">
+            <img src="assets/images/dest-kerala.jpg"
+                 alt="A houseboat drifting through Kerala backwaters lined with palms"
+                 loading="lazy" width="480" height="220" />
+            <span class="dest-tag">India</span>
+          </div>
+          <div class="dest-card-body">
+            <h3 class="dest-title">Kerala</h3>
+            <p class="dest-desc">Backwaters, spice gardens, Ayurveda, and the lush tea hills of Munnar — nature at its softest.</p>
+            <button class="btn btn-primary btn-sm dest-quote-btn" data-dest="Kerala (India)" style="margin-top:8px">Request a quote</button>
+          </div>
+        </article>
+
+        <!-- Rajasthan -->
+        <article class="dest-card glass" data-region="india" aria-label="Rajasthan, India">
+          <div class="dest-card-img">
+            <img src="assets/images/dest-rajasthan.jpg"
+                 alt="A grand Rajasthani palace lit in amber at sunset"
+                 loading="lazy" width="480" height="220" />
+            <span class="dest-tag">India</span>
+          </div>
+          <div class="dest-card-body">
+            <h3 class="dest-title">Rajasthan</h3>
+            <p class="dest-desc">Palaces, desert safaris, camel treks, and vibrant bazaars in the land of kings.</p>
+            <button class="btn btn-primary btn-sm dest-quote-btn" data-dest="Rajasthan (India)" style="margin-top:8px">Request a quote</button>
+          </div>
+        </article>
+
+        <!-- Varanasi -->
+        <article class="dest-card glass" data-region="india" aria-label="Varanasi, India">
+          <div class="dest-card-img">
+            <img src="assets/images/dest-varanasi.jpg"
+                 alt="Varanasi ghats at dawn with oil lamps on the Ganges"
+                 loading="lazy" width="480" height="220" />
+            <span class="dest-tag">India</span>
+          </div>
+          <div class="dest-card-body">
+            <h3 class="dest-title">Varanasi</h3>
+            <p class="dest-desc">The eternal city on the Ganges — Ganga Aarti, ancient ghats, and spiritual depth like nowhere else.</p>
+            <button class="btn btn-primary btn-sm dest-quote-btn" data-dest="Varanasi (India)" style="margin-top:8px">Request a quote</button>
+          </div>
+        </article>
+
+        <!-- Thailand -->
+        <article class="dest-card glass" data-region="asia" aria-label="Thailand, Asia">
+          <div class="dest-card-img">
+            <img src="assets/images/dest-thailand.jpg"
+                 alt="Turquoise waters and limestone karsts of southern Thailand"
+                 loading="lazy" width="480" height="220" />
+            <span class="dest-tag">Asia</span>
+          </div>
+          <div class="dest-card-body">
+            <h3 class="dest-title">Thailand</h3>
+            <p class="dest-desc">Bangkok's temples, Chiang Mai's culture, and Krabi's beaches — Asia's most vibrant escape.</p>
+            <button class="btn btn-primary btn-sm dest-quote-btn" data-dest="Thailand (Asia)" style="margin-top:8px">Request a quote</button>
+          </div>
+        </article>
+
+        <!-- Europe -->
+        <article class="dest-card glass" data-region="europe" aria-label="Europe">
+          <div class="dest-card-img">
+            <img src="assets/images/dest-europe.jpg"
+                 alt="A romantic European cobblestone street with lit cafés at dusk"
+                 loading="lazy" width="480" height="220" />
+            <span class="dest-tag">Europe</span>
+          </div>
+          <div class="dest-card-body">
+            <h3 class="dest-title">Europe</h3>
+            <p class="dest-desc">Multi-country tours across France, Italy, Switzerland, and beyond — culture, cuisine, and scenery.</p>
+            <button class="btn btn-primary btn-sm dest-quote-btn" data-dest="Europe" style="margin-top:8px">Request a quote</button>
+          </div>
+        </article>
+
+        <!-- Dubai & Oman -->
+        <article class="dest-card glass" data-region="middle-east" aria-label="Dubai and Oman, Middle East">
+          <div class="dest-card-img">
+            <img src="assets/images/dest-dubai-oman.jpg"
+                 alt="Dubai skyline glittering over the desert at twilight"
+                 loading="lazy" width="480" height="220" />
+            <span class="dest-tag">Middle East</span>
+          </div>
+          <div class="dest-card-body">
+            <h3 class="dest-title">Dubai &amp; Oman</h3>
+            <p class="dest-desc">Luxury malls, desert dunes, and ancient wadis — the Arabian peninsula at its most compelling.</p>
+            <button class="btn btn-primary btn-sm dest-quote-btn" data-dest="Dubai and Oman (Middle East)" style="margin-top:8px">Request a quote</button>
+          </div>
+        </article>
+
+        <!-- New Zealand -->
+        <article class="dest-card glass" data-region="oceania" aria-label="New Zealand, Oceania">
+          <div class="dest-card-img">
+            <img src="assets/images/dest-newzealand.jpg"
+                 alt="Fiordland fjords and glowing green hills of New Zealand"
+                 loading="lazy" width="480" height="220" />
+            <span class="dest-tag">Oceania</span>
+          </div>
+          <div class="dest-card-body">
+            <h3 class="dest-title">New Zealand</h3>
+            <p class="dest-desc">Fiords, geothermal valleys, Maori culture, and open roads through Middle-earth landscapes.</p>
+            <button class="btn btn-primary btn-sm dest-quote-btn" data-dest="New Zealand (Oceania)" style="margin-top:8px">Request a quote</button>
+          </div>
+        </article>
+
+      </div><!-- /#dest-grid -->
+
+      <!-- Empty state -->
+      <div class="dest-empty" id="dest-empty" aria-live="polite">
+        <p>No destinations found for this filter. <button class="btn btn-secondary btn-sm" id="dest-reset-btn">Show all</button></p>
+      </div>
+
+    </div>
+  </section><!-- /#destinations -->
+
+
+  <!-- ── SERVICES ──────────────────────────────────────────── -->
+  <section id="services" aria-labelledby="services-heading">
+    <div class="container">
+      <p class="section-label" aria-hidden="true">What we offer</p>
+      <h2 class="section-title" id="services-heading">Everything your journey needs</h2>
+      <p class="section-sub">We handle every detail so you arrive, explore, and return — stress-free.</p>
+      <div class="services-grid">
+
+        <!-- Hotel Booking -->
+        <div class="service-card glass">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 21V8l9-5 9 5v13"/>
+              <path d="M9 21v-6h6v6"/>
+              <rect x="10" y="8" width="4" height="4"/>
+            </svg>
+          </div>
+          <div>
+            <div class="service-title">Hotel booking</div>
+            <p class="service-desc">Handpicked hotels, heritage havelis, and curated resorts at every budget. We negotiate rates and confirm on your behalf.</p>
+          </div>
+        </div>
+
+        <!-- Tour Packages -->
+        <div class="service-card glass">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M12 2a14.5 14.5 0 0 0 0 20"/>
+              <path d="M2 12h20"/>
+            </svg>
+          </div>
+          <div>
+            <div class="service-title">Tour packages</div>
+            <p class="service-desc">Ready-made and fully flexible multi-destination packages with accommodation, sightseeing, and meals included.</p>
+          </div>
+        </div>
+
+        <!-- Tour Guides -->
+        <div class="service-card glass">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="4"/>
+              <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+              <path d="M17 14l2 2 4-4"/>
+            </svg>
+          </div>
+          <div>
+            <div class="service-title">Tour guides</div>
+            <p class="service-desc">Licensed, local, and multilingual guides who bring history and culture to life — for every destination we serve.</p>
+          </div>
+        </div>
+
+        <!-- Custom Itineraries -->
+        <div class="service-card glass">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <line x1="16" y1="13" x2="8" y2="13"/>
+              <line x1="16" y1="17" x2="8" y2="17"/>
+              <line x1="10" y1="9"  x2="8" y2="9"/>
+            </svg>
+          </div>
+          <div>
+            <div class="service-title">Custom itineraries</div>
+            <p class="service-desc">Tell us your interests. We design day-by-day plans that match your pace, preferences, and budget — nothing generic.</p>
+          </div>
+        </div>
+
+        <!-- Transport -->
+        <div class="service-card glass">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="1" y="3" width="15" height="13" rx="2"/>
+              <path d="M16 8h4l3 3v5h-7V8z"/>
+              <circle cx="5.5"  cy="18.5" r="2.5"/>
+              <circle cx="18.5" cy="18.5" r="2.5"/>
+            </svg>
+          </div>
+          <div>
+            <div class="service-title">Transport</div>
+            <p class="service-desc">Comfortable, air-conditioned vehicles with experienced drivers for all airport transfers, sightseeing, and intercity travel.</p>
+          </div>
+        </div>
+
+        <!-- Flights & Logistics -->
+        <div class="service-card glass">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21.5 2.5l-19 7 7 3 3 7 9-17z"/>
+              <path d="M11.5 12.5l3-3"/>
+            </svg>
+          </div>
+          <div>
+            <div class="service-title">Flights &amp; logistics</div>
+            <p class="service-desc">Flight recommendations, visa guidance, travel insurance advice, and full logistical coordination from arrival to departure.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- /#services -->
+
+
+  <!-- ── GALLERY & VIDEO ───────────────────────────────────── -->
+  <section id="gallery" aria-labelledby="gallery-heading">
+    <div class="container">
+      <p class="section-label" aria-hidden="true">Moments</p>
+      <h2 class="section-title" id="gallery-heading">See India through our lens</h2>
+      <p class="section-sub">A glimpse of the places, people, and moments that make every trip unforgettable.</p>
+
+      <!-- Asymmetric image grid -->
+      <div class="gallery-grid" role="list" aria-label="Photo gallery">
+
+        <div class="gallery-item" role="listitem">
+          <img src="assets/images/gallery-1.jpg"
+               alt="Old Delhi — a riot of colour in the lanes of Chandni Chowk"
+               loading="lazy" width="720" height="520" />
+          <div class="gallery-caption">Delhi</div>
+        </div>
+
+        <div class="gallery-item" role="listitem">
+          <img src="assets/images/gallery-2.jpg"
+               alt="Rishikesh — white-water rafting on the Ganges at dawn"
+               loading="lazy" width="360" height="260" />
+          <div class="gallery-caption">Rishikesh</div>
+        </div>
+
+        <div class="gallery-item" role="listitem">
+          <img src="assets/images/gallery-3.jpg"
+               alt="Kerala — sunrise over the misty tea gardens of Munnar"
+               loading="lazy" width="360" height="260" />
+          <div class="gallery-caption">Kerala</div>
+        </div>
+
+      </div>
+
+      <!-- Video block -->
+      <div class="video-block glass" id="video-block">
+        <div class="video-header">
+          <h3>Trip highlights</h3>
+          <p>Real moments from real Divine Adventure journeys.</p>
+        </div>
+        <!-- Video is inserted by JS; falls back to "Video coming soon" if file missing -->
+        <div id="video-container"></div>
+      </div>
+
+    </div>
+  </section><!-- /#gallery -->
+
+
+  <!-- ── REVIEWS ───────────────────────────────────────────── -->
+  <section id="reviews" aria-labelledby="reviews-heading">
+    <div class="container">
+      <p class="section-label" aria-hidden="true">Guest voices</p>
+      <h2 class="section-title" id="reviews-heading">What our travellers say</h2>
+      <p class="section-sub">Every journey is different. Every memory is real.</p>
+      <!-- SAMPLE: replace with real reviews -->
+      <div class="reviews-grid">
+
+        <article class="review-card glass" aria-label="Review from Priya, India">
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="review-quote">Every single detail was taken care of. The guide in Rajasthan was exceptional — knowledgeable, warm, and genuinely passionate about sharing his culture.</p>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">P</div>
+            <div>
+              <div class="review-name">Priya</div>
+              <div class="review-country">India</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card glass" aria-label="Review from James, United Kingdom">
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="review-quote">We asked for something off the beaten track. They delivered beyond expectation. The Spiti Valley itinerary was the best trip of my life — no exaggeration.</p>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">J</div>
+            <div>
+              <div class="review-name">James</div>
+              <div class="review-country">United Kingdom</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card glass" aria-label="Review from Fatima, UAE">
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="review-quote">Our honeymoon in Kerala was magical. Houseboat, Ayurvedic retreat, hill station — all arranged with such personal care. We felt truly looked after.</p>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">F</div>
+            <div>
+              <div class="review-name">Fatima</div>
+              <div class="review-country">UAE</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card glass" aria-label="Review from Michael, Australia">
+          <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="review-quote">Travelling with family including elderly parents. They anticipated every need — wheelchair-friendly venues, rest days built in, and great hotel choices. Wonderful.</p>
+          <div class="review-author">
+            <div class="review-avatar" aria-hidden="true">M</div>
+            <div>
+              <div class="review-name">Michael</div>
+              <div class="review-country">Australia</div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+      <!-- END SAMPLE -->
+    </div>
+  </section><!-- /#reviews -->
+
+
+  <!-- ── TRAVEL INFORMATION ─────────────────────────────────── -->
+  <section id="travel-info" aria-labelledby="travel-info-heading">
+    <div class="container">
+      <p class="section-label" aria-hidden="true">Good to know</p>
+      <h2 class="section-title" id="travel-info-heading">Travel information</h2>
+      <p class="section-sub">Helpful pointers for planning your journey to India and beyond.</p>
+
+      <div class="travel-info-grid">
+
+        <div class="travel-card glass">
+          <div class="travel-card-head">
+            <div class="travel-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="14" height="16" rx="2"/>
+                <path d="M7 1v4M13 1v4M7 10h6M7 13h4"/>
+              </svg>
+            </div>
+            <h3 class="travel-title">Visas &amp; entry</h3>
+          </div>
+          <ul class="travel-bullets">
+            <li>Most nationalities qualify for India's e-Visa — apply at least 4 business days before travel.</li>
+            <li>Check visa requirements for every country on your itinerary; rules change frequently.</li>
+            <li>Always carry printed copies of your e-Visa and hotel confirmations at immigration.</li>
+          </ul>
+        </div>
+
+        <div class="travel-card glass">
+          <div class="travel-card-head">
+            <div class="travel-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="10" cy="10" r="8"/>
+                <path d="M10 6v4l3 3"/>
+              </svg>
+            </div>
+            <h3 class="travel-title">Money &amp; payments</h3>
+          </div>
+          <ul class="travel-bullets">
+            <li>India uses INR (Indian Rupee). ATMs are widely available in cities but carry cash in rural areas.</li>
+            <li>UPI and cards are accepted in most hotels and restaurants; small vendors prefer cash.</li>
+            <li>Notify your bank before travel to avoid international card blocks.</li>
+          </ul>
+        </div>
+
+        <div class="travel-card glass">
+          <div class="travel-card-head">
+            <div class="travel-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 2a6 6 0 0 1 6 6c0 4-6 11-6 11S4 12 4 8a6 6 0 0 1 6-6z"/>
+                <circle cx="10" cy="8" r="2"/>
+              </svg>
+            </div>
+            <h3 class="travel-title">Health &amp; insurance</h3>
+          </div>
+          <ul class="travel-bullets">
+            <li>Consult your doctor at least 4–6 weeks before departure regarding vaccinations and malaria prophylaxis.</li>
+            <li>Comprehensive travel insurance with medical evacuation cover is strongly recommended.</li>
+            <li>Carry a small personal kit: antidiarrheal, ORS, sunscreen SPF 50+, and a water purifier.</li>
+          </ul>
+        </div>
+
+        <div class="travel-card glass">
+          <div class="travel-card-head">
+            <div class="travel-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 10c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8-8-3.6-8-8z"/>
+                <path d="M10 6v4l2.5 2.5"/>
+                <path d="M14 3l3-1M6 3L3 2"/>
+              </svg>
+            </div>
+            <h3 class="travel-title">Weather &amp; packing</h3>
+          </div>
+          <ul class="travel-bullets">
+            <li>October–March is ideal for most of India; summers are hot, monsoon (July–Sept) brings lush scenery.</li>
+            <li>For the Himalayas pack warm layers even in summer — altitude drops temperatures sharply.</li>
+            <li>Modest clothing (shoulders and knees covered) is expected at religious sites.</li>
+          </ul>
+        </div>
+
+        <div class="travel-card glass">
+          <div class="travel-card-head">
+            <div class="travel-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10 2l1.5 4.5H16l-3.7 2.7 1.4 4.3L10 11l-3.7 2.5 1.4-4.3L4 6.5h4.5z"/>
+              </svg>
+            </div>
+            <h3 class="travel-title">Safety &amp; conduct</h3>
+          </div>
+          <ul class="travel-bullets">
+            <li>India is generally safe for tourists; stay alert in crowded areas and use registered transport.</li>
+            <li>Respect local customs — remove footwear at temples, ask before photographing people.</li>
+            <li>Register with your country's embassy travel advisory for the latest updates.</li>
+          </ul>
+        </div>
+
+        <div class="travel-card glass">
+          <div class="travel-card-head">
+            <div class="travel-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="5" width="16" height="12" rx="2"/>
+                <path d="M6 5V4a2 2 0 0 1 4 0v1M14 5V4a2 2 0 0 0-4 0v1"/>
+                <path d="M2 10h16"/>
+              </svg>
+            </div>
+            <h3 class="travel-title">Connectivity</h3>
+          </div>
+          <ul class="travel-bullets">
+            <li>Buy a local SIM (Airtel / Jio) on arrival with a valid passport — data is fast and affordable.</li>
+            <li>Most hotels and restaurants offer Wi-Fi; remote areas like Spiti may have limited signal.</li>
+            <li>Download offline maps and key apps (Google Maps, UPI wallet) before heading off the beaten track.</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <p class="travel-disclaimer">
+        ℹ️ This information is general. Confirm current requirements with official government sources, your embassy, and your doctor before you travel.
+      </p>
+
+    </div>
+  </section><!-- /#travel-info -->
+
+
+  <!-- ── ABOUT ──────────────────────────────────────────────── -->
+  <section id="about" aria-labelledby="about-heading">
+    <div class="container">
+      <p class="section-label" aria-hidden="true">Our story</p>
+      <h2 class="section-title" id="about-heading">Built on a love of travel</h2>
+      <div class="about-inner">
+
+        <div class="about-text">
+          <p>Divine Adventure Holidays Tour &amp; Travels was founded on a simple belief: travel should feel effortless, personal, and genuinely memorable. [Owner's story goes here — tell travellers who you are, where you come from, and why you do this work.]</p>
+          <p>We are a small, hands-on team with deep local connections across India and partnerships with trusted operators worldwide. Every itinerary is built from scratch. Every guest is treated as a friend, not a booking number.</p>
+          <p>We do not use call centres. When you contact us, you speak directly to the person planning your trip.</p>
+        </div>
+
+        <div class="about-values" aria-label="Our values">
+
+          <div class="value-card glass">
+            <div class="value-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+                <path d="M9 2l1.8 4H15l-3.5 2.6 1.4 4.1L9 10.5l-3.9 2.2 1.4-4.1L3 6h4.2z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="value-title">Honesty</div>
+              <p class="value-desc">We quote what it costs. We tell you what we cannot do. No hidden fees, no inflated prices.</p>
+            </div>
+          </div>
+
+          <div class="value-card glass">
+            <div class="value-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+                <path d="M9 16s-7-4.5-7-9a7 7 0 0 1 14 0c0 4.5-7 9-7 9z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="value-title">Care</div>
+              <p class="value-desc">Your comfort and safety matter more than anything else on the road.</p>
+            </div>
+          </div>
+
+          <div class="value-card glass">
+            <div class="value-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+                <circle cx="9" cy="9" r="7"/>
+                <path d="M9 4v5l3 3"/>
+              </svg>
+            </div>
+            <div>
+              <div class="value-title">Local roots</div>
+              <p class="value-desc">Our guides and partners are people who grew up where you are going. That knowledge is irreplaceable.</p>
+            </div>
+          </div>
+
+          <div class="value-card glass">
+            <div class="value-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+                <polyline points="9 2 9 9 13 13"/>
+                <circle cx="9" cy="9" r="7"/>
+              </svg>
+            </div>
+            <div>
+              <div class="value-title">Reliability</div>
+              <p class="value-desc">We show up, on time, every time. If something changes, we call you first.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section><!-- /#about -->
+
+
+  <!-- ── ENQUIRY / CONTACT ──────────────────────────────────── -->
+  <section id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="enquiry-inner">
+
+        <!-- Left column -->
+        <div class="enquiry-left">
+          <p class="section-label" aria-hidden="true">Get in touch</p>
+          <h2 id="contact-heading">Let's plan your journey</h2>
+          <p>Fill in the form and we'll build your personalised itinerary. Or message us directly on WhatsApp — we reply within a few hours.</p>
+
+          <!-- Contact details populated by JS -->
+          <div class="contact-details" id="contact-details"></div>
+
+          <!-- FAQ accordion -->
+          <p class="faq-title">Frequently asked questions</p>
+          <div class="faq-accordion" id="faq-accordion">
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false" aria-controls="faq-1">
+                How far in advance should I enquire?
+                <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>
+              </button>
+              <div class="faq-answer" id="faq-1" role="region">
+                <div class="faq-answer-inner">Enquire as early as possible — ideally 4 to 8 weeks before your intended travel dates. This gives us time to secure the best hotels and permits, especially for high-demand destinations like Ladakh or Golden Triangle in peak season.</div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false" aria-controls="faq-2">
+                Do you organise group tours?
+                <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>
+              </button>
+              <div class="faq-answer" id="faq-2" role="region">
+                <div class="faq-answer-inner">Yes. We organise private group tours (families, friends, corporate teams) and can join you to fixed-departure group tours on request. All group itineraries are fully customisable around your interests and pace.</div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false" aria-controls="faq-3">
+                How do I pay?
+                <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>
+              </button>
+              <div class="faq-answer" id="faq-3" role="region">
+                <div class="faq-answer-inner">We accept payment by direct bank transfer (NEFT / RTGS / SWIFT for international guests) and UPI. A 30% advance secures your booking; the balance is due 30 days before your arrival date. Full details are provided in the booking agreement.</div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false" aria-controls="faq-4">
+                What if I need to change or cancel?
+                <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>
+              </button>
+              <div class="faq-answer" id="faq-4" role="region">
+                <div class="faq-answer-inner">Itinerary changes are often possible without penalty if requested early. Cancellations are subject to our cancellation policy (see <a href="#terms" style="color:var(--primary)">Terms &amp; Cancellation</a>). We always try to offer alternatives before cancellation. Travel insurance is strongly recommended.</div>
+              </div>
+            </div>
+
+          </div>
+        </div><!-- /.enquiry-left -->
+
+        <!-- Right column: Enquiry form -->
+        <div class="enquiry-form-card glass-elevated" id="enquiry-form-card">
+          <h3>Your journey details</h3>
+          <p>Fields marked <span style="color:var(--primary)">*</span> are required.</p>
+
+          <form id="enquiry-form" novalidate autocomplete="on">
+
+            <!-- ── ABOUT YOU ───────────────────────────────── -->
+            <fieldset class="form-section">
+              <legend class="form-section-label">About you</legend>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-name">Full name <span class="req">*</span></label>
+                  <input class="form-input" type="text" id="f-name" name="name" autocomplete="name" required placeholder="Your full name" />
+                  <span class="form-error" id="err-name">Please enter your name.</span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-nationality">Nationality <span class="req">*</span></label>
+                  <input class="form-input" type="text" id="f-nationality" name="nationality" required placeholder="e.g. Indian, British" />
+                  <span class="form-error" id="err-nationality">Please enter your nationality.</span>
+                </div>
+              </div>
+
+              <div class="form-row" style="margin-top:12px">
+                <div class="form-group">
+                  <label class="form-label" for="f-email">Email address</label>
+                  <input class="form-input" type="email" id="f-email" name="email" autocomplete="email" placeholder="you@email.com" />
+                  <span class="form-error" id="err-email">Please enter a valid email.</span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-phone">Phone / WhatsApp</label>
+                  <input class="form-input" type="tel" id="f-phone" name="phone" autocomplete="tel" placeholder="+91 00000 00000" />
+                  <span class="form-error" id="err-contact">Please provide email or phone.</span>
+                </div>
+              </div>
+
+              <div class="form-row" style="margin-top:12px">
+                <div class="form-group">
+                  <label class="form-label" for="f-residence">Country of residence</label>
+                  <input class="form-input" type="text" id="f-residence" name="residence" placeholder="e.g. India, UAE, UK" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-source">How did you hear about us?</label>
+                  <select class="form-select" id="f-source" name="source">
+                    <option value="">— Select —</option>
+                    <option>Google search</option>
+                    <option>Instagram</option>
+                    <option>Facebook</option>
+                    <option>Friend or family</option>
+                    <option>Previous guest</option>
+                    <option>Travel blog</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+            </fieldset>
+
+            <!-- ── YOUR TRIP ───────────────────────────────── -->
+            <fieldset class="form-section">
+              <legend class="form-section-label">Your trip</legend>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-arrival-date">Arrival date <span class="req">*</span></label>
+                  <input class="form-input" type="date" id="f-arrival-date" name="arrival_date" required />
+                  <span class="form-error" id="err-arrival">Please select an arrival date.</span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-departure-date">Departure date <span class="req">*</span></label>
+                  <input class="form-input" type="date" id="f-departure-date" name="departure_date" required />
+                  <span class="form-error" id="err-departure">Departure must be after arrival.</span>
+                </div>
+              </div>
+
+              <div class="form-row" style="margin-top:12px">
+                <div class="form-group">
+                  <label class="form-label" for="f-arrival-city">Arriving at (city / airport)</label>
+                  <input class="form-input" type="text" id="f-arrival-city" name="arrival_city" placeholder="e.g. Delhi, Mumbai" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-departure-city">Departing from (city / airport)</label>
+                  <input class="form-input" type="text" id="f-departure-city" name="departure_city" placeholder="e.g. Kochi, Jaipur" />
+                </div>
+              </div>
+
+              <div class="form-row" style="margin-top:12px">
+                <div class="form-group">
+                  <label class="form-label" for="f-adults">Adults</label>
+                  <div class="number-input">
+                    <button type="button" class="num-dec" data-target="f-adults" aria-label="Decrease adults">−</button>
+                    <span id="f-adults-display" aria-live="polite">2</span>
+                    <input type="hidden" id="f-adults" name="adults" value="2" />
+                    <button type="button" class="num-inc" data-target="f-adults" aria-label="Increase adults">+</button>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-children">Children (under 12)</label>
+                  <div class="number-input">
+                    <button type="button" class="num-dec" data-target="f-children" aria-label="Decrease children">−</button>
+                    <span id="f-children-display" aria-live="polite">0</span>
+                    <input type="hidden" id="f-children" name="children" value="0" />
+                    <button type="button" class="num-inc" data-target="f-children" aria-label="Increase children">+</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group" style="margin-top:14px">
+                <label class="form-label" id="trip-type-label">Trip type</label>
+                <div class="chip-group" id="trip-type-chips" role="radiogroup" aria-labelledby="trip-type-label">
+                  <button type="button" class="chip" role="radio" aria-checked="false" data-group="trip-type" data-value="Private tour">Private tour</button>
+                  <button type="button" class="chip" role="radio" aria-checked="false" data-group="trip-type" data-value="Group tour">Group tour</button>
+                  <button type="button" class="chip" role="radio" aria-checked="false" data-group="trip-type" data-value="Honeymoon">Honeymoon</button>
+                  <button type="button" class="chip" role="radio" aria-checked="false" data-group="trip-type" data-value="Family">Family</button>
+                  <button type="button" class="chip" role="radio" aria-checked="false" data-group="trip-type" data-value="Pilgrimage">Pilgrimage</button>
+                  <button type="button" class="chip" role="radio" aria-checked="false" data-group="trip-type" data-value="Corporate">Corporate</button>
+                </div>
+                <input type="hidden" id="f-trip-type" name="trip_type" value="" />
+              </div>
+
+              <div class="form-group" style="margin-top:14px">
+                <label class="form-label" id="dest-chips-label">Destinations of interest</label>
+                <div class="chip-group" id="dest-chips" role="group" aria-labelledby="dest-chips-label">
+                  <button type="button" class="chip" data-group="destinations" data-value="Golden Triangle">Golden Triangle</button>
+                  <button type="button" class="chip" data-group="destinations" data-value="Himalayas">Himalayas</button>
+                  <button type="button" class="chip" data-group="destinations" data-value="Kerala">Kerala</button>
+                  <button type="button" class="chip" data-group="destinations" data-value="Rajasthan">Rajasthan</button>
+                  <button type="button" class="chip" data-group="destinations" data-value="Varanasi">Varanasi</button>
+                  <button type="button" class="chip" data-group="destinations" data-value="Thailand">Thailand</button>
+                  <button type="button" class="chip" data-group="destinations" data-value="Europe">Europe</button>
+                  <button type="button" class="chip" data-group="destinations" data-value="Dubai and Oman">Dubai &amp; Oman</button>
+                  <button type="button" class="chip" data-group="destinations" data-value="New Zealand">New Zealand</button>
+                  <button type="button" class="chip" data-group="destinations" data-value="Other">Other</button>
+                </div>
+                <input type="hidden" id="f-destinations" name="destinations" value="" />
+                <div class="form-group" id="other-dest-group" style="margin-top:8px;display:none">
+                  <input class="form-input" type="text" id="f-other-dest" name="other_dest" placeholder="Please specify other destination" />
+                </div>
+              </div>
+
+              <div class="form-group" style="margin-top:14px">
+                <label class="form-label" id="interests-label">Interests</label>
+                <div class="chip-group" id="interests-chips" role="group" aria-labelledby="interests-label">
+                  <button type="button" class="chip" data-group="interests" data-value="Heritage">Heritage</button>
+                  <button type="button" class="chip" data-group="interests" data-value="Spiritual">Spiritual</button>
+                  <button type="button" class="chip" data-group="interests" data-value="Adventure">Adventure</button>
+                  <button type="button" class="chip" data-group="interests" data-value="Wildlife">Wildlife</button>
+                  <button type="button" class="chip" data-group="interests" data-value="Food">Food</button>
+                  <button type="button" class="chip" data-group="interests" data-value="Beaches">Beaches</button>
+                  <button type="button" class="chip" data-group="interests" data-value="Shopping">Shopping</button>
+                  <button type="button" class="chip" data-group="interests" data-value="Photography">Photography</button>
+                </div>
+                <input type="hidden" id="f-interests" name="interests" value="" />
+              </div>
+
+            </fieldset>
+
+            <!-- ── PREFERENCES ────────────────────────────── -->
+            <fieldset class="form-section">
+              <legend class="form-section-label">Preferences</legend>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-accommodation">Accommodation</label>
+                  <select class="form-select" id="f-accommodation" name="accommodation">
+                    <option value="">— Select —</option>
+                    <option>5-star</option>
+                    <option>4-star</option>
+                    <option>3-star</option>
+                    <option>Heritage or boutique</option>
+                    <option>Camps or resorts</option>
+                    <option>Mixed</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-budget">Budget per person (USD)</label>
+                  <select class="form-select" id="f-budget" name="budget">
+                    <option value="">— Select —</option>
+                    <option>Under $500</option>
+                    <option>$500 – $1,000</option>
+                    <option>$1,000 – $2,000</option>
+                    <option>$2,000 – $5,000</option>
+                    <option>Over $5,000</option>
+                    <option>Flexible — show me the best options</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row" style="margin-top:12px">
+                <div class="form-group">
+                  <label class="form-label" for="f-transport">Transport preference</label>
+                  <select class="form-select" id="f-transport" name="transport">
+                    <option value="">— Select —</option>
+                    <option>Private car / SUV</option>
+                    <option>Shared vehicle</option>
+                    <option>Train</option>
+                    <option>Mix of train and car</option>
+                    <option>Flights between cities</option>
+                    <option>No preference</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-guide">Guide preference</label>
+                  <select class="form-select" id="f-guide" name="guide">
+                    <option value="">— Select —</option>
+                    <option>English-speaking guide</option>
+                    <option>Hindi-speaking guide</option>
+                    <option>Other language (specify below)</option>
+                    <option>No guide needed</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row" style="margin-top:12px">
+                <div class="form-group">
+                  <label class="form-label" for="f-visa">Visa status</label>
+                  <select class="form-select" id="f-visa" name="visa">
+                    <option value="">— Select —</option>
+                    <option>Already have a valid visa</option>
+                    <option>Will apply — need guidance</option>
+                    <option>Visa on arrival / e-Visa eligible</option>
+                    <option>Not sure — need advice</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-insurance">Travel insurance</label>
+                  <select class="form-select" id="f-insurance" name="insurance">
+                    <option value="">— Select —</option>
+                    <option>Already arranged</option>
+                    <option>Need a recommendation</option>
+                    <option>Not planning to take it</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group" style="margin-top:12px">
+                <label class="form-label" for="f-dietary">Dietary or medical needs <span style="font-weight:400;font-size:0.75rem">(optional)</span></label>
+                <textarea class="form-textarea" id="f-dietary" name="dietary" placeholder="e.g. vegetarian, nut allergy, mobility requirements. Share only what you are comfortable with."></textarea>
+              </div>
+
+              <div class="form-group" style="margin-top:12px">
+                <label class="form-label" for="f-notes">Anything else we should know?</label>
+                <textarea class="form-textarea" id="f-notes" name="notes" placeholder="Special occasions, must-see places, travel style, questions…"></textarea>
+              </div>
+
+            </fieldset>
+
+            <!-- ── CONSENT ────────────────────────────────── -->
+            <fieldset class="form-section">
+              <legend class="form-section-label">Before you send</legend>
+              <div class="consent-group">
+                <label class="consent-item" id="consent-terms-label">
+                  <input type="checkbox" id="consent-terms" name="consent_terms" required />
+                  I have read and agree to the <a href="#terms">Terms &amp; Cancellation Policy</a>. <span style="color:var(--primary)">*</span>
+                </label>
+                <span class="form-error" id="err-terms">You must agree to the Terms &amp; Cancellation Policy.</span>
+
+                <label class="consent-item">
+                  <input type="checkbox" id="consent-privacy" name="consent_privacy" required />
+                  I have read and agree to the <a href="#privacy">Privacy Notice</a>. <span style="color:var(--primary)">*</span>
+                </label>
+                <span class="form-error" id="err-privacy">You must agree to the Privacy Notice.</span>
+
+                <label class="consent-item">
+                  <input type="checkbox" id="consent-updates" name="consent_updates" />
+                  I am happy to receive trip ideas and travel updates from Divine Adventure. (Optional)
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-primary" id="submit-btn" style="width:100%;justify-content:center;padding:14px 28px">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                  <path d="M2.25 15.75 15.75 9 2.25 2.25l.75 5.25 9 1.5-9 1.5z" fill="currentColor"/>
+                </svg>
+                Send enquiry on WhatsApp
+              </button>
+
+              <div class="copy-fallback" id="copy-fallback">
+                <button type="button" class="btn btn-secondary btn-sm" id="copy-btn">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+                    <rect x="4" y="4" width="9" height="9" rx="1.5"/>
+                    <path d="M1 9V2a1 1 0 0 1 1-1h7"/>
+                  </svg>
+                  Copy enquiry text instead
+                </button>
+              </div>
+
+            </fieldset>
+
+          </form>
+        </div><!-- /.enquiry-form-card -->
+
+      </div><!-- /.enquiry-inner -->
+    </div>
+  </section><!-- /#contact -->
+
+
+  <!-- ── CTA BAND ───────────────────────────────────────────── -->
+  <section id="cta-band" aria-label="Call to action">
+    <div class="container">
+      <div class="cta-band-inner">
+        <div class="cta-band-text">
+          <h2>Your next journey starts with one message.</h2>
+          <p>No commitment. No fees. Just a conversation about where you want to go.</p>
+        </div>
+        <a href="#contact" class="btn btn-primary">
+          Start your enquiry
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ── TERMS & CANCELLATION ───────────────────────────────── -->
+  <section id="terms" aria-labelledby="terms-heading">
+    <div class="container">
+      <div class="legal-card glass">
+        <span class="legal-draft-note">⚠ Draft — review with a lawyer before publishing</span>
+        <h2 id="terms-heading">Terms &amp; Cancellation Policy</h2>
+
+        <h3>1. Enquiries and quotes</h3>
+        <p>An enquiry or quotation from Divine Adventure Holidays Tour &amp; Travels does not constitute a confirmed booking. All prices are estimates and may change before a booking agreement is signed.</p>
+
+        <h3>2. Booking agreement</h3>
+        <p>A booking is confirmed only when both parties have signed a written booking agreement and the required advance payment has been received.</p>
+
+        <h3>3. Payment</h3>
+        <p>A non-refundable advance of <strong>[30]%</strong> of the total tour cost is required to confirm a booking. The remaining balance is due <strong>[30] days</strong> before the arrival date. Payment is accepted by bank transfer only. No cash or card payments are collected online.</p>
+        <p>Bank details are provided in the booking agreement. Divine Adventure will never request payment to a personal or third-party account. If you receive such a request, contact us immediately.</p>
+
+        <h3>4. Changes by the guest</h3>
+        <p>Changes to confirmed itineraries may incur amendment fees depending on the nature and timing of the change. We will always try to accommodate reasonable changes at no extra cost where possible.</p>
+
+        <h3>5. Cancellation by the guest</h3>
+        <p>Cancellations must be notified in writing. The following charges apply, calculated on the total tour cost:</p>
+        <table class="cancel-table" aria-label="Cancellation charges">
+          <thead>
+            <tr>
+              <th>Notice period before arrival</th>
+              <th>Cancellation charge</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>More than 60 days</td>               <td>[10% of total cost]</td></tr>
+            <tr><td>30 to 59 days</td>                   <td>[25% of total cost]</td></tr>
+            <tr><td>15 to 29 days</td>                   <td>[50% of total cost]</td></tr>
+            <tr><td>Fewer than 15 days or no-show</td>   <td>[100% — no refund]</td></tr>
+          </tbody>
+        </table>
+
+        <h3>6. Travel documents and insurance</h3>
+        <p>Guests are solely responsible for obtaining valid passports, visas, and any entry permits required for their journey. Travel insurance with medical, cancellation, and evacuation cover is strongly recommended and may be required for certain itineraries.</p>
+
+        <h3>7. Our role and liability</h3>
+        <p>Divine Adventure acts as an organiser and coordinator of third-party services (hotels, transport, guides, activity providers). We are not liable for the acts or omissions of third-party service providers, nor for losses arising from events beyond our reasonable control.</p>
+
+        <h3>8. Force majeure</h3>
+        <p>Neither party shall be liable for delays or cancellations caused by circumstances beyond reasonable control, including but not limited to natural disasters, political unrest, pandemic, or government travel restrictions. We will work with you in good faith to reschedule or offer a credit note.</p>
+
+        <h3>9. Governing law</h3>
+        <p>These terms are governed by the laws of India. Any disputes shall be subject to the exclusive jurisdiction of the courts at <strong>[City, State]</strong>.</p>
+
+      </div>
+    </div>
+  </section><!-- /#terms -->
+
+
+  <!-- ── PRIVACY NOTICE ────────────────────────────────────── -->
+  <section id="privacy" aria-labelledby="privacy-heading">
+    <div class="container">
+      <div class="legal-card glass">
+        <span class="legal-draft-note">⚠ Draft — review with a lawyer before publishing</span>
+        <h2 id="privacy-heading">Privacy Notice</h2>
+
+        <h3>What we collect</h3>
+        <p>When you complete the enquiry form, we collect your name, nationality, country of residence, contact details (email and/or phone/WhatsApp), travel dates, preferences, and any optional details you choose to share (such as dietary needs).</p>
+
+        <h3>Why we use it</h3>
+        <p>We use your information solely to respond to your enquiry, create a personalised travel proposal, confirm your booking, coordinate your tour, and (if you opt in) send you occasional travel inspiration.</p>
+
+        <h3>How we handle it</h3>
+        <p>Your enquiry is submitted via WhatsApp (end-to-end encrypted) directly to our team. We do not use a web server form processor or store your data in a third-party database. Only the person handling your enquiry can access it.</p>
+        <p>We will never sell, rent, or share your personal data with third parties for marketing purposes.</p>
+
+        <h3>How long we keep it</h3>
+        <p>Enquiries that do not result in a confirmed booking are deleted after <strong>[12] months</strong>. Booking records are retained for [7] years as required by applicable law.</p>
+
+        <h3>Your rights</h3>
+        <p>You have the right to access, correct, or request deletion of the personal data we hold about you. To exercise these rights, contact us at the email address in the footer.</p>
+
+        <h3>Sharing</h3>
+        <p>We share only the minimum necessary information with the hotels, guides, and transport providers required to deliver your tour. These providers are bound by their own privacy obligations.</p>
+
+        <h3>Security</h3>
+        <p>We take reasonable precautions to protect your information. Please do not share passport numbers, credit card details, or sensitive financial information via WhatsApp or this website.</p>
+
+        <p><strong>Last updated: [Date]</strong></p>
+
+      </div>
+    </div>
+  </section><!-- /#privacy -->
+
+</main><!-- /#main-content -->
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════════════════ -->
+<footer id="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-top">
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <a href="#hero" class="brand" aria-label="Divine Adventure — home">
+          <svg class="brand-emblem" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="21" cy="21" r="20" stroke="rgba(125,211,252,0.25)" stroke-width="1"/>
+            <path d="M7 32 L15 16 L21 24 L27 14 L35 32 Z" fill="rgba(125,211,252,0.1)" stroke="#7DD3FC" stroke-width="1.2" stroke-linejoin="round"/>
+            <circle cx="27" cy="14" r="2.5" fill="#7DD3FC" opacity="0.7"/>
+            <line x1="21" y1="3"  x2="21" y2="6"  stroke="rgba(200,160,240,0.5)" stroke-width="1.2" stroke-linecap="round"/>
+            <line x1="21" y1="36" x2="21" y2="39" stroke="rgba(200,160,240,0.3)" stroke-width="1"   stroke-linecap="round"/>
+            <line x1="3"  y1="21" x2="6"  y2="21" stroke="rgba(200,160,240,0.3)" stroke-width="1"   stroke-linecap="round"/>
+            <line x1="36" y1="21" x2="39" y2="21" stroke="rgba(200,160,240,0.3)" stroke-width="1"   stroke-linecap="round"/>
+          </svg>
+          <div class="brand-name">
+            Divine Adventure
+            <span>Holidays Tour &amp; Travels</span>
+          </div>
+        </a>
+        <p>Premium custom tours across India and the world. Every journey, planned just for you.</p>
+      </div>
+
+      <!-- Explore -->
+      <div>
+        <p class="footer-col-title">Explore</p>
+        <nav class="footer-links" aria-label="Explore links">
+          <a href="#destinations">Destinations</a>
+          <a href="#services">Services</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#travel-info">Travel info</a>
+        </nav>
+      </div>
+
+      <!-- Company -->
+      <div>
+        <p class="footer-col-title">Company</p>
+        <nav class="footer-links" aria-label="Company links">
+          <a href="#about">About us</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+
+      <!-- Legal -->
+      <div>
+        <p class="footer-col-title">Legal</p>
+        <nav class="footer-links" aria-label="Legal links">
+          <a href="#terms">Terms &amp; cancellation</a>
+          <a href="#privacy">Privacy notice</a>
+        </nav>
+      </div>
+
+      <!-- Get in touch — populated by JS -->
+      <div>
+        <p class="footer-col-title">Get in touch</p>
+        <nav class="footer-contact-links" id="footer-contacts" aria-label="Contact links"></nav>
+      </div>
+
+    </div><!-- /.footer-top -->
+
+    <div class="footer-bottom">
+      <p class="footer-copy" id="footer-copy"></p>
+      <p class="footer-copy" style="color:rgba(159,179,196,0.5)">Designed with care for every traveller.</p>
+    </div>
+
+  </div>
+</footer>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     FLOATING WHATSAPP BUTTON
+════════════════════════════════════════════════════════════ -->
+<a id="wa-float" href="#" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+  <!-- WhatsApp icon -->
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+    <path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.533 5.854L.057 23.885a.5.5 0 0 0 .619.612l6.162-1.615A11.945 11.945 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.86 0-3.604-.5-5.1-1.374l-.366-.217-3.793.994.995-3.693-.233-.384A9.953 9.953 0 0 1 2 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/>
+  </svg>
+  <span>WhatsApp us</span>
+</a>
+
+<!-- Screen-reader only utility class (no CSS needed, defined inline) -->
+<style>.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}</style>
+
+<script src="main.js"></script>
+</body>
+</html>
