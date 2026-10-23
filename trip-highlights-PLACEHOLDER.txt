@@ -1,0 +1,15 @@
+VIDEO PLACEHOLDER
+=================
+
+This file represents the expected location for the trip-highlights video.
+
+Path:   assets/videos/trip-highlights.mp4
+Format: MP4 (H.264 video, AAC audio)
+
+To add your video:
+  1. Export your video as MP4, ideally 1920×1080, under 50 MB for fast loading.
+  2. Name it exactly: trip-highlights.mp4
+  3. Place it in this folder (assets/videos/).
+  4. The site will display it automatically with playback controls.
+
+If this file is absent, the site shows "Video coming soon" gracefully — no broken player.
